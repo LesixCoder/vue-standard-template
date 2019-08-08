@@ -1,34 +1,17 @@
 # vue-standard-template
 
-## Project setup
-```
-npm install
+标准的vue项目模板
+
+## 运行项目
+
+```bash
+git clone https://github.com/lsxlsxxslxsl/vue-standard-template.git
+cd vue-standard-template
+npm install && npm run serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 项目命令
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
+```bash
 npm run test
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
