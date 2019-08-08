@@ -1,4 +1,4 @@
-# test-jenkins
+# vue-standard-template
 
 ## Project setup
 ```
