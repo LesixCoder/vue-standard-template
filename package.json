@@ -30,7 +30,9 @@
     "standard-version": "^7.0.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue-svgicon": "^3.2.6",
+    "vuex": "^3.0.1",
+    "yi-ui": "^0.2.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
