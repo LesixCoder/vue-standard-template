@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "johnsoncodehk.volar",
+        "dbaeumer.vscode-eslint",
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "mrmlnc.vscode-less",
+        "cpylua.language-postcss",
+        "orta.vscode-jest",
+        "mikestead.dotenv"
+    ]
+}

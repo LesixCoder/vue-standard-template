@@ -1,24 +1,11 @@
-# vue-standard-template
+# Vue 3 + Typescript + Vite
 
-标准的vue项目模板
+This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-- **对项目结构进行优化**。各资源模块，更专业的分门别类，便捷的编写、维护、查找；同时也是基于前端开发既定共识去设计，更容易为初接触者所理解。
-- **简化开始开发流程**。npm run serve即可开始业务开发。
-- **优雅的处理数据请求**。采用Promise，对axios封装，可以极简的进行链式调用，同时便捷地处理返回数据。
-- **内置了样式处理方案**。支持less编译，并内置变量和mixin，轻松开启样式编写、复用、修改等。
-- **集成 Prettier & Eslint**。检测代码潜在问题的同时，统一团队代码规范。
-- **集成git hooks和代码查重检测**。只允许提交符合规范的代码，保持代码库干净整洁
+## Recommended IDE Setup
 
-## 运行项目
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-```bash
-git clone https://github.com/lsxlsxxslxsl/vue-standard-template.git
-cd vue-standard-template
-npm install && npm run serve
-```
+## Type Support For `.vue` Imports in TS
 
-## 项目命令
-
-```bash
-npm run test
-```
+Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
