@@ -1,6 +1,6 @@
 # Vue 3 + Typescript + Vite
 
-- 主技术栈：TypeScript、Vue3、Vuex4、Vue Router4、Vite
+- 主技术栈：TypeScript、Vue3、Vuex4、Vue Router4、Vite、vuex-module-decorators
 - 单元测试：Jest
 - 规范检查
   - husky 负责 git 相关客户端钩子
